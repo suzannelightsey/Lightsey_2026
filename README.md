@@ -2,7 +2,9 @@
 This repository contains a reproducible RNA-seq analysis and figure generation workflow in R used to produce publication-quality figures for comparative transcriptomic studies. The pipeline implements standard normalization, PCA, correlation analysis, heatmaps, GSVA pathway scoring, and differential expression with edgeR and limma.
 
 **Main script:** scripts/Lightsey_2026.Rmd
+
 **Input:**  data/RNASeq_Data_Analysis.xlsx
+
 **Output:**  All figures (PNG) and DEG tables are saved in the results/ folder.
 
 If you use this code or parts of it, please cite this repository and relevant R/Bioconductor packages.
